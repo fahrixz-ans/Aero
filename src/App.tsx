@@ -15,6 +15,7 @@ import EmptyState from './components/EmptyState';
 import AdminPanel from './components/AdminPanel';
 import RecentlyUpdatedPage from './components/RecentlyUpdatedPage';
 import DynamicSEO from './components/DynamicSEO';
+import AdSense from './components/AdSense'; // ⬅️ TAMBAHAN: Import komponen iklan
 import { 
   Users, Gamepad2, Film, CheckSquare, GraduationCap, 
   Camera, Music, Video, Wrench, MessageSquare, Wallet, 
@@ -32,7 +33,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sortBy, setSortBy] = useState<SortOption>('popular');
   const [loading, setLoading] = useState<boolean>(false);
-  
+
   // Dark mode initialized from localStorage (defaults to true for premium bento mode)
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem('darkMode');
@@ -42,7 +43,7 @@ export default function App() {
   // User state and bookmarks state from Firebase
   const [user, setUser] = useState<User | null>(null);
   const [bookmarks, setBookmarks] = useState<string[]>([]);
-  
+
   // Dynamic applications list (Firestore reactive, fallback to static)
   const [apps, setApps] = useState<AppData[]>(appsData);
 
@@ -345,7 +346,7 @@ export default function App() {
       const now = new Date();
       const diffTime = Math.abs(now.getTime() - appDate.getTime());
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-      
+
       if (filters.updatedDateRange === 'today') {
         matchesDate = diffDays <= 1;
       } else if (filters.updatedDateRange === 'week') {
@@ -390,7 +391,7 @@ export default function App() {
 
   return (
     <div className={`min-h-screen flex flex-col font-sans transition-colors duration-300 ${darkMode ? 'dark bg-[#0F1115] text-slate-100' : 'bg-slate-50/30 text-slate-900'}`}>
-      
+
       {/* Dynamic SEO Meta & JSON-LD Manager */}
       <DynamicSEO 
         currentView={currentView} 
@@ -412,7 +413,7 @@ export default function App() {
 
       {/* Main Container */}
       <main className="flex-1 w-full pb-16">
-        
+
         {/* Loading overlay for routing feel */}
         {loading ? (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -468,6 +469,13 @@ export default function App() {
                       ))}
                     </div>
                   </section>
+
+                  {/* ⬇️ IKLAN ADSENSE #1: Banner horizontal di bawah Featured */}
+                  <AdSense 
+                    adSlot="1234567890" 
+                    adFormat="horizontal" 
+                    className="my-6"
+                  />
 
                   {/* Popular apps section (different hierarchy: grid representation) */}
                   <section className="space-y-6" id="home-popular-apps">
@@ -596,6 +604,13 @@ export default function App() {
                   totalResults={sortedApps.length}
                 />
 
+                {/* ⬇️ IKLAN ADSENSE #2: Banner di atas daftar aplikasi */}
+                <AdSense 
+                  adSlot="1234567891" 
+                  adFormat="horizontal" 
+                  className="my-4"
+                />
+
                 {/* Main listings Grid container */}
                 <AppGrid
                   apps={sortedApps}
@@ -661,6 +676,15 @@ export default function App() {
                   isBookmarked={bookmarks.includes(activeApp.id)}
                   onToggleBookmark={() => handleToggleBookmark(activeApp.id)}
                 />
+
+                {/* ⬇️ IKLAN ADSENSE #3: Di bawah detail aplikasi */}
+                <div className="mt-8">
+                  <AdSense 
+                    adSlot="1234567892" 
+                    adFormat="auto" 
+                    className="my-6"
+                  />
+                </div>
               </div>
             )}
 
