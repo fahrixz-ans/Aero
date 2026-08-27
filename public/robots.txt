@@ -1,0 +1,11 @@
+# AeroAPK Robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+# Host
+Host: https://aeroapk.com
+
+# Sitemaps
+Sitemap: https://aeroapk.com/sitemap.xml

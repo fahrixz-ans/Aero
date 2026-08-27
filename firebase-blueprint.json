@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Application": {
+      "title": "Application",
+      "description": "Metadata and details of an Android application.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "developer": { "type": "string" },
+        "icon": { "type": "string" },
+        "screenshots": { "type": "array" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "version": { "type": "string" },
+        "size": { "type": "string" },
+        "androidVersion": { "type": "string" },
+        "rating": { "type": "number" },
+        "downloads": { "type": "number" },
+        "releaseDate": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "officialDownloadUrl": { "type": "string" },
+        "alternativeDownloadUrl": { "type": "string" },
+        "featured": { "type": "boolean" },
+        "popular": { "type": "boolean" },
+        "whatsNew": { "type": "string" },
+        "permissions": { "type": "array" },
+        "minSdk": { "type": "integer" },
+        "targetSdk": { "type": "integer" },
+        "signingCertificate": {
+          "type": "object",
+          "properties": {
+            "sha256": { "type": "string" },
+            "sha1": { "type": "string" },
+            "issuer": { "type": "string" },
+            "subject": { "type": "string" }
+          }
+        }
+      },
+      "required": ["id", "name", "slug", "developer", "icon", "description", "category", "version", "size", "androidVersion", "rating", "downloads", "releaseDate", "updatedAt", "officialDownloadUrl"]
+    },
+    "Feedback": {
+      "title": "Feedback",
+      "description": "Application report or feedback submitted by users.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "applicationId": { "type": "string" },
+        "applicationName": { "type": "string" },
+        "type": { "type": "string" },
+        "message": { "type": "string" },
+        "email": { "type": "string" },
+        "status": { "type": "string", "enum": ["new", "reviewed", "resolved"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "applicationId", "applicationName", "type", "message", "status", "createdAt"]
+    },
+    "NewsletterSubscriber": {
+      "title": "NewsletterSubscriber",
+      "description": "Subscriber email for newsletter system.",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email" },
+        "subscribedAt": { "type": "string" }
+      },
+      "required": ["email", "subscribedAt"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Application category grouping.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    }
+  },
+  "firestore": {
+    "/categories/{categoryId}": {
+      "schema": "Category",
+      "description": "Collection of application categories."
+    },
+    "/applications/{applicationId}": {
+      "schema": "Application",
+      "description": "Collection of all applications."
+    },
+    "/feedback/{feedbackId}": {
+      "schema": "Feedback",
+      "description": "Collection of app feedback reports."
+    },
+    "/subscribers/{subscriberId}": {
+      "schema": "NewsletterSubscriber",
+      "description": "Collection of newsletter subscribers."
+    }
+  }
+}

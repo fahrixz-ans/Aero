@@ -1,0 +1,6 @@
+{
+  "name": "AeroAPK",
+  "description": "AeroAPK adalah platform modern dan profesional untuk mencari dan mengunduh aplikasi Android APK yang aman, cepat, dan terpercaya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
