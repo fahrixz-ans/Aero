@@ -5,7 +5,7 @@ Disallow: /api/
 Disallow: /admin
 
 # Host
-Host: https://aeroapk.com
+Host: https://aero-apk.vercel.app
 
 # Sitemaps
-Sitemap: https://aeroapk.com/sitemap.xml
+Sitemap: https://aero-apk.vercel.app/sitemap.xml
