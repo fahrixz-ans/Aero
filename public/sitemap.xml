@@ -6,37 +6,37 @@
 
   <!-- Core Main Pages -->
   <url>
-    <loc>https://aeroapk.com/</loc>
+    <loc>https://aero-apk.vercel.app/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/recently-updated</loc>
+    <loc>https://aero-apk.vercel.app/recently-updated</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/dmca</loc>
+    <loc>https://aero-apk.vercel.app/dmca</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/privacy-policy</loc>
+    <loc>https://aero-apk.vercel.app/privacy-policy</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/terms</loc>
+    <loc>https://aero-apk.vercel.app/terms</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/contact</loc>
+    <loc>https://aero-apk.vercel.app/contact</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -44,73 +44,79 @@
 
   <!-- Categories -->
   <url>
-    <loc>https://aeroapk.com/category/social</loc>
+    <loc>https://aero-apk.vercel.app/category/social</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/games</loc>
+    <loc>https://aero-apk.vercel.app/category/games</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/entertainment</loc>
+    <loc>https://aero-apk.vercel.app/category/entertainment</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/productivity</loc>
+    <loc>https://aero-apk.vercel.app/category/productivity</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/education</loc>
+    <loc>https://aero-apk.vercel.app/category/education</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/photography</loc>
+    <loc>https://aero-apk.vercel.app/category/photography</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/music</loc>
+    <loc>https://aero-apk.vercel.app/category/music</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/video</loc>
+    <loc>https://aero-apk.vercel.app/category/video</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/tools</loc>
+    <loc>https://aero-apk.vercel.app/category/tools</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/communication</loc>
+    <loc>https://aero-apk.vercel.app/category/communication</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/finance</loc>
+    <loc>https://aero-apk.vercel.app/category/finance</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/category/utilities</loc>
+    <loc>https://aero-apk.vercel.app/category/utilities</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://aero-apk.vercel.app/category/kartu</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -118,73 +124,109 @@
 
   <!-- Application Detail Pages -->
   <url>
-    <loc>https://aeroapk.com/app/whatsapp</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/99rp</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/capcut</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/gogo-rejeki</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/instagram</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/hoki-arena</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/spotify</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/jaya-slot</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/mobile-legends</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/lucks-vip</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/subway-surfers</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/rejeki-bet</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/duolingo</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/rejeki-hub</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/pinterest</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/spinharta</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/notion</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/winidn-bet</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/tiktok</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/369zk</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/vlc</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/898a</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aeroapk.com/app/vsco</loc>
+    <loc>https://aero-apk.vercel.app/#/apps/hoki-luck</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/rejeki-789</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/remi-101</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/88bos-vip</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/remi-62</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/8zk</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aero-apk.vercel.app/#/apps/gacor-max</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
