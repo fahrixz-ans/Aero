@@ -11,14 +11,14 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
   useEffect(() => {
     let title = 'AeroAPK - Pusat APK Downloader Android Resmi, Aman & Cepat';
     let description = 'AeroAPK adalah platform download APK Android gratis, resmi, cepat, dan terpercaya di Indonesia. Unduh ribuan aplikasi, game, dan utilitas Android terverifikasi aman.';
-    let canonicalUrl = 'https://aeroapk.com/';
-    let ogImage = 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=630&fit=crop&q=80';
+    let canonicalUrl = 'https://aero-apk.vercel.app/';
+    let ogImage = 'https://raw.githubusercontent.com/fahrixz-ans/Aero/main/public/favicon.svg';
     let jsonLdData: any = null;
 
     if (currentView === 'detail' && selectedApp) {
       title = `Download ${selectedApp.name} APK v${selectedApp.version} Terbaru untuk Android - AeroAPK`;
       description = `Unduh APK ${selectedApp.name} versi ${selectedApp.version} resmi dari pengembang ${selectedApp.developer}. Ukuran ${selectedApp.size}, aman, terverifikasi, dan siap pasang gratis di Android.`;
-      canonicalUrl = `https://aeroapk.com/#/apps/${selectedApp.slug || selectedApp.id}`;
+      canonicalUrl = `https://aero-apk.vercel.app/#/apps/${selectedApp.id}`;
       ogImage = selectedApp.icon || ogImage;
 
       // SoftwareApplication Schema
@@ -38,7 +38,7 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
         'publisher': {
           '@type': 'Organization',
           'name': 'AeroAPK',
-          'url': 'https://aeroapk.com'
+          'url': 'https://aero-apk.vercel.app/'
         },
         'offers': {
           '@type': 'Offer',
@@ -62,7 +62,7 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
       const activeCat = categoryFilter || 'Semua Kategori';
       title = `Download APK Kategori ${activeCat} Android Terbaik & Terpopuler - AeroAPK`;
       description = `Jelajahi dan unduh aplikasi APK Android terbaik di kategori ${activeCat}. Gratis, aman, dan versi terbaru terverifikasi.`;
-      canonicalUrl = `https://aeroapk.com/#/category/${encodeURIComponent(activeCat.toLowerCase())}`;
+      canonicalUrl = `https://aero-apk.vercel.app/category/${encodeURIComponent(activeCat.toLowerCase())}`;
 
       jsonLdData = {
         '@context': 'https://schema.org',
@@ -73,7 +73,7 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
         'isPartOf': {
           '@type': 'WebSite',
           'name': 'AeroAPK',
-          'url': 'https://aeroapk.com'
+          'url': 'https://aero-apk.vercel.app'
         },
         'breadcrumb': {
           '@type': 'BreadcrumbList',
@@ -82,13 +82,13 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
               '@type': 'ListItem',
               'position': 1,
               'name': 'Beranda',
-              'item': 'https://aeroapk.com/'
+              'item': 'https://aero-apk.vercel.app/'
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': 'Kategori',
-              'item': 'https://aeroapk.com/#/categories'
+              'item': 'https://aero-apk.vercel.app/category'
             },
             {
               '@type': 'ListItem',
@@ -102,23 +102,23 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
     } else if (currentView === 'recently-updated') {
       title = 'Aplikasi Android APK yang Baru Diperbarui - AeroAPK';
       description = 'Daftar aplikasi dan game Android APK versi terbaru yang baru saja mendapatkan pembaruan dan rilis resmi.';
-      canonicalUrl = 'https://aeroapk.com/#/recently-updated';
+      canonicalUrl = 'https://aero-apk.vercel.app/recently-updated';
     } else if (currentView === 'dmca') {
       title = 'DMCA & Hak Cipta - AeroAPK';
       description = 'Kebijakan DMCA dan prosedur klaim pelanggaran hak cipta resmi AeroAPK.';
-      canonicalUrl = 'https://aeroapk.com/#/dmca';
+      canonicalUrl = 'https://aero-apk.vercel.app/dmca';
     } else if (currentView === 'privacy') {
       title = 'Kebijakan Privasi (Privacy Policy) - AeroAPK';
       description = 'Kebijakan privasi AeroAPK mengenai perlindungan data dan keamanan privasi pengguna.';
-      canonicalUrl = 'https://aeroapk.com/#/privacy';
+      canonicalUrl = 'https://aero-apk.vercel.app/privacy-policy';
     } else if (currentView === 'terms') {
       title = 'Syarat & Ketentuan Layanan - AeroAPK';
       description = 'Syarat dan ketentuan penggunaan platform downloader APK AeroAPK.';
-      canonicalUrl = 'https://aeroapk.com/#/terms';
+      canonicalUrl = 'https://aero-apk.vercel.app/terms';
     } else if (currentView === 'contact') {
       title = 'Hubungi Kami - AeroAPK';
       description = 'Layanan bantuan, pertanyaan kemitraan, dan kontak resmi tim AeroAPK.';
-      canonicalUrl = 'https://aeroapk.com/#/contact';
+      canonicalUrl = 'https://aero-apk.vercel.app/contact';
     }
 
     // 1. Update Document Title
@@ -181,4 +181,4 @@ export default function DynamicSEO({ currentView, selectedApp, categoryFilter }:
   }, [currentView, selectedApp, categoryFilter]);
 
   return null;
-}
+        }
