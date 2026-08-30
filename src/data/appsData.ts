@@ -15,7 +15,42 @@ export const CATEGORIES = [
   'Kartu'
 ];
 
+
 export const appsData: AppData[] = [
+  {
+    id: 'uh77',
+    name: 'UH77',
+    slug: 'uh77slot',
+    developer: 'uh77slot.com',
+    icon: 'https://raw.githubusercontent.com/fahrixz-ans/Assets/refs/heads/main/UH77.com_1.0.3.apk_icon.png',
+    screenshots: [
+      ''
+    ],
+    description: 'UH77 adalah aplikasi hiburan yang menghadirkan pengalaman bermain seru dan penuh kejutan. Nikmati berbagai fitur menarik dan gameplay yang ringan di perangkat Android Anda.',
+    category: 'Kartu',
+    version: '1.18.99',
+    size: '63.4 MB',
+    androidVersion: 'Android 5.0+',
+    rating: 4.4,
+    downloads: 500000,
+    releaseDate: '2024-01-01',
+    updatedAt: '2026-08-27',
+    downloadUrl: 'https://www.uh77slot.com?code=4AS7BCM8JUP&t=1788080804',
+    officialDownloadUrl: 'https://www.uh77slot.com?code=4AS7BCM8JUP&t=1788080804',
+    alternativeDownloadUrl: '',
+    permissions: ['INTERNET', 'ACCESS_NETWORK_STATE', 'WRITE_EXTERNAL_STORAGE', 'READ_EXTERNAL_STORAGE'],
+    minSdk: 21,
+    targetSdk: 33,
+    signingCertificate: {
+      sha256: 'AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99',
+      sha1: 'AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD',
+      issuer: 'C=ID, O=Android, CN=Android Release',
+      subject: 'C=ID, O=aksesuh77.com, CN=UH77'
+    },
+    featured: true,
+    popular: true,
+    whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
+  },
   {
     id: '99rp',
     name: '99RP',
@@ -47,7 +82,7 @@ export const appsData: AppData[] = [
       subject: 'C=ID, O=99rp.io, CN=99RP'
     },
     featured: false,
-    popular: false,
+    popular: true,
     whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
   },
   {
@@ -148,7 +183,7 @@ export const appsData: AppData[] = [
       issuer: 'C=ID, O=Android, CN=Android Release',
       subject: 'C=ID, O=jayaslott22.com, CN=Jaya Slt'
     },
-    featured: false,
+    featured: true,
     popular: false,
     whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
   },
@@ -183,7 +218,7 @@ export const appsData: AppData[] = [
       subject: 'C=ID, O=share2lucksvip.com, CN=Lucks Vip'
     },
     featured: false,
-    popular: false,
+    popular: true,
     whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
   },
   {
@@ -216,7 +251,7 @@ export const appsData: AppData[] = [
       issuer: 'C=ID, O=Android, CN=Android Release',
       subject: 'C=ID, O=rejekigame067.com, CN=Rejeki Bet'
     },
-    featured: false,
+    featured: true,
     popular: false,
     whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
   },
@@ -318,8 +353,8 @@ export const appsData: AppData[] = [
       issuer: 'C=ID, O=Android, CN=Android Release',
       subject: 'C=ID, O=winidngame20.com, CN=Winidn Bet'
     },
-    featured: false,
-    popular: false,
+    featured: true,
+    popular: true,
     whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
   },
   {
