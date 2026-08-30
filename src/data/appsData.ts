@@ -1,21 +1,8 @@
 import { AppData } from '../types';
 
 export const CATEGORIES = [
-  'Social',
-  'Games',
-  'Entertainment',
-  'Productivity',
-  'Education',
-  'Photography',
-  'Music',
-  'Video',
-  'Tools',
-  'Communication',
-  'Finance',
   'Kartu'
 ];
-
-
 export const appsData: AppData[] = [
   {
     id: 'uh77',
