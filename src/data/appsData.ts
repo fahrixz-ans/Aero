@@ -1,9 +1,43 @@
 import { AppData } from '../types';
 
 export const CATEGORIES = [
-  'Kartu'
+  'Kartu',
+  'Mini Drama'
 ];
 export const appsData: AppData[] = [
+    {
+    id: 'SKYWORK AI PTE. LTD',
+    name: 'FreeReels',
+    slug: 'com.freereels.app',
+    developer: 'SKYWORK AI PTE. LTD',
+    icon: 'https://raw.githubusercontent.com/fahrixz-ans/Aero/refs/heads/main/src/FreeReels_2.4.50.apk_icon.png',
+    screenshots: [  'https://share.google/Fv8Et9Yup3o6VxMXW' 'https://share.google/MBUjV8evAQta8gbds' 'https://share.google/Y9ZfKD1EisfuhEFze' 'https://share.google/Bl63l6Invnw6HvTJi' 'https://share.google/A1Xtbxh2DJFFGcNfv'
+    ],
+    description: 'FreeReels – Dramas & Reels adalah aplikasi hiburan untuk menonton drama pendek/mini-series dan reels. Versi yang kamu kirim adalah 2.4.50, package com.freereels.app, dari SKYWORK AI PTE. LTD.',
+    category: 'Mini Drama',
+    version: '2.4.50',
+    size: '43.4 MB',
+    androidVersion: 'Android 5.0+',
+    rating: 4.9,
+    downloads: 500000,
+    releaseDate: '2024-01-01',
+    updatedAt: '2026-08-27',
+    downloadUrl: 'https://apiv2.free-reels.com/frv2-api/l/2uOOX2orRsY',
+    officialDownloadUrl: 'https://apiv2.free-reels.com/frv2-api/l/2uOOX2orRsY',
+    alternativeDownloadUrl: '',
+    permissions: ['INTERNET', 'ACCESS_NETWORK_STATE', 'WRITE_EXTERNAL_STORAGE', 'READ_EXTERNAL_STORAGE'],
+    minSdk: 21,
+    targetSdk: 33,
+    signingCertificate: {
+      sha256: 'AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99',
+      sha1: 'AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD',
+      issuer: 'C=ID, O=Android, CN=Android Release',
+      subject: 'C=ID, O=com.freereels.app, CN=FREERELS'
+    },
+    featured: false,
+    popular: true,
+    whatsNew: 'Pembaruan versi terbaru dengan perbaikan bug dan peningkatan stabilitas aplikasi.'
+  },
   {
     id: 'uh77',
     name: 'UH77',
