@@ -24,7 +24,7 @@ export const appsData: AppData[] = [
     updatedAt: '2026-08-27',
     downloadUrl: 'https://www.uh77slot.com?code=4AS7BCM8JUP&t=1788080804',
     officialDownloadUrl: 'https://www.uh77slot.com?code=4AS7BCM8JUP&t=1788080804',
-    alternativeDownloadUrl: '',
+    alternativeDownloadUrl: 'https://www.rejekigamesagen040.com/?code=APJ6P29LZN3&t=1788496642',
     permissions: ['INTERNET', 'ACCESS_NETWORK_STATE', 'WRITE_EXTERNAL_STORAGE', 'READ_EXTERNAL_STORAGE'],
     minSdk: 21,
     targetSdk: 33,
